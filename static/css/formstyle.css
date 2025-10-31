@@ -1,0 +1,37 @@
+.form-box{
+    width: 600px;
+    max-width: 10px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    padding: 60px;
+    font-family: arial, SansSerif;
+    font-size: 10px;
+    color: darkblue;
+}
+form{
+    width: 400px;
+}
+input,button{
+    display: block;
+    width: 400px;
+    margin: 5px 0;
+    padding:8px;
+}
+button{
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 7px;
+    margin-top: 7px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+}
+button:hover{
+    background-color: darkred;
+         }
+form{
+    text-decoration-color: darkred;
+}
